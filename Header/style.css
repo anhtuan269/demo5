@@ -1,0 +1,194 @@
+@media screen and (min-width: 320px){
+    .top-notice {
+        background-color: #E98C81;
+    }
+    .top-notice .notice {
+        text-align: center!important;
+        padding: 10px 15px 10px 15px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .top-notice .notice .noti {
+        margin-bottom: 10px;
+    }
+    .top-notice .notice .noti p {
+        color: #FFF;
+    }
+    .top-notice .notice .button a {
+        margin-left: 10px;
+        padding: 5px 10px;
+        border: 1px solid #FFF;
+        font-size: 12px;
+        font-family: Poppins, sans-serif;
+        border-radius: 3px;
+        display: inline-block;
+        background-color: #E98C81;
+        line-height: 18px;
+        font-weight:600;
+        color:#FFF;
+    }
+    .top-notice .notice span {
+        margin-left: 10px;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 16px;
+        cursor:pointer;
+        line-height: 25px;
+        width: 25px;
+        height:25px;
+        display: block;
+        margin-top: 2px;
+    } 
+    .none {
+        display: none;
+    }
+    .header .header-container .menu {
+        display: none;
+    }
+    .header .header-container .custom .custom-container .login {
+        display: none;
+    }
+    .header .header-container .custom .custom-container .usd {
+        display: none;
+    }
+    .header {
+        padding: 0 15px;
+        height: 94px;
+        align-items: center;
+    }
+    .header .header-container {
+        display: flex;
+        justify-content: space-between;
+        height: 94px;
+        align-items: center;
+    }
+    .header .header-container .custom .custom-container ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header .header-container .custom .custom-container ul .cart {
+        margin-right:30px;
+        position: relative;
+    }
+    .header .header-container .custom .custom-container ul .cart a i{
+        font-size: 20px;
+    }
+    .header .header-container .custom .custom-container ul .cart a span {
+        color: #FFF;
+        border: 1px solid #222;
+        background-color: #000;
+        border-radius: 50%;
+        font-size: 12px;
+        font-weight: 600;
+        height: 20px;
+        width: 20px;
+        text-align: center;
+        display: block;
+        top: -10px;
+        position: absolute;
+        left: -8px;
+    }
+    .header .header-container .custom .custom-container ul .bar {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:768px){
+    .top-notice .notice {
+        display: flex;
+    }
+    .top-notice .notice .button a {
+        padding: 5px 20px;
+        font-size: 14px;
+        margin-left:15px;
+    }
+    .top-notice .notice .noti {
+        margin-bottom: 0px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .top-notice .notice {
+        max-width: 1140px;
+        margin: auto;
+    }
+    .header {
+        max-width: 1140px;
+        margin: auto;
+    }
+    .header .header-container .custom .custom-container ul .bar {
+        display: none;
+    }
+    .header .header-container .custom .custom-container ul .cart {
+        margin: 0px;
+    }
+    .header .header-container .menu {
+        display: block;
+    }
+    .header .header-container .menu ul {
+        display: flex;
+        align-items: center;
+    }
+    .header .header-container .menu ul li a {
+        font-size: 15px;
+        display: block;
+        padding: 8px 17px;
+        line-height: 18px;
+        font-weight:600;
+    }
+    .header .header-container .menu .main-menu .nav li a:hover {
+        color:#E98C81;
+    }
+    .header .header-container .menu ul li a i {
+        font-size: 13px;
+        padding-left:5px;
+
+    }
+    .header .header-container .custom .custom-container .login {
+        display: block;
+        margin-right: 30px;
+        font-size:15px;
+        font-weight:600;
+    }
+    .header .header-container .custom .custom-container .login .register {
+        
+        margin-left:15px;
+    }
+    .header .header-container .custom .custom-container .login .register::before {
+        content:"|";
+        padding-right:15px;
+        font-weight:300;
+        cursor: auto;
+    }
+    .header .header-container .custom .custom-container .usd {
+        display: block;
+        font-size: 15px;
+        font-weight: 600;
+        margin-right: 30px;
+    }
+    .header .header-container .custom .custom-container .usd i {
+        padding-left:3px;
+    }
+    .active {
+        color: #E98C81;
+    }
+    
+
+}
+@media screen and (min-width:1400px){
+    .top-notice .notice {
+        max-width: 1320px;
+    }
+    .header {
+        max-width: 1320px;
+    }
+}
+@media screen and (min-width:1500px){
+    .top-notice .notice {
+        max-width: 1140px;
+    }
+    .header {
+        max-width: 1480px;
+    }
+}

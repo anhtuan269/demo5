@@ -1,0 +1,60 @@
+.top-notice
+    .notice
+        .noti 
+            p Get 35% off for new product
+        .button
+            a(href="#") Shop now
+        span.close-btn X
+.header
+    .header-container
+        .logo
+            a(href="#")
+                img(src="./image/logo.png", alt="")
+        .menu
+            .main-menu
+                ul.nav
+                    li
+                        a.active(href="#") 
+                            |Home
+                            i.fas.fa-angle-down
+                    li
+                        a(href="#") 
+                            |Shop
+                            i.fas.fa-angle-down
+                    li
+                        a(href="#") 
+                            |Blog
+                            i.fas.fa-angle-down
+                    li
+                        a(href="#") 
+                            |Page
+                            i.fas.fa-angle-down
+                   
+                    li
+                        a(href="#") About
+                    li
+                        a(href="#") Contact
+        .custom
+            .custom-container
+                ul.left
+                    li.login  
+                        span
+                            a(href="#") Login
+
+                        span.register
+                            a(href="#") Register
+                    li.usd
+                        a(href="#") USD
+                        i.fas.fa-caret-down
+                    li.cart  
+                        a(href="#")
+                            i.fas.fa-cart-plus
+                            span 3
+                    li.bar
+                        a(href="#")
+                            i.fas.fa-bars
+                        
+script.
+    $('.close-btn').click(function(e){
+        $('.top-notice').addClass('none')
+    })

@@ -1,0 +1,175 @@
+
+body {
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #303030;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  color: #1B1B1C;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.img-full {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: block;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #E98C81;
+}
+
+a,
+button,
+i {
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+button,
+button:focus,
+.btn,
+.btn:focus,
+input,
+input:focus,
+select,
+textarea,
+.slick-slide {
+  text-decoration: none;
+  outline: 0;
+}
+
+input.input-field {
+  border: 1px solid #e1e1e1;
+}
+
+textarea.textarea-field {
+  border: 1px solid #e1e1e1;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label {
+  position: relative;
+  padding-left: 30px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+input[type="checkbox"] + label:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: 2px solid #e1e1e1;
+  content: "";
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+input[type="checkbox"] + label:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  content: "\f00c";
+  font-family: 'FontAwesome';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  opacity: 0;
+  width: 20px;
+  text-align: center;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  color: #13aff0;
+}
+
+input[type="checkbox"]:checked + label:before {
+  border: 2px solid #e1e1e1;
+}
+
+input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+button,
+.btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* ---Font Style--- */
+.font-style_italic {
+  font-style: italic;
+}
+
+/* ---Line Height--- */
+.line-height-1 {
+  line-height: 1;
+}
+
