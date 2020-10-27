@@ -1,0 +1,31 @@
+.slide
+    .slide-content
+        .slider.owl-carousel.owl-theme
+            .slider1
+                .content
+                    h3 Cold processed organic fruit
+                    h2 Fresh Avocado
+                    a(href="#") SHOP NOW
+            .slider2
+                .content
+                    h3 Healthy life with
+                    h2 Natural Orginic
+                    a(href="#") SHOP NOW
+script.
+    $(document).ready(function(){
+        $('.slider').owlCarousel({
+            nav: true,
+            loop: true,
+            responsive: {
+                1000: {
+                    items: 1
+                },
+                600: {
+                    items :1
+                },
+                0: {
+                    items: 1
+                }
+            }
+        })
+    });
