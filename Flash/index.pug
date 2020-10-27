@@ -1,0 +1,44 @@
+.flash-sale
+    .flash-container
+        .flash
+            .banner-thumb
+                img(src="./image/1.png", alt="")
+            .content
+                h2.uppercase flash deal
+                h3.uppercase hurry up and get 25% discount
+                a(href="#") SHOP NOW
+                .countdown#count
+                    .countdown-container
+                        .single-countdown
+                            span.single-countdown-time#day 0
+                            span.single-countdown-text Days
+                        .single-countdown
+                            span.single-countdown-time#hour 0
+                            span.single-countdown-text Hours
+                        .single-countdown
+                            span.single-countdown-time#min 0
+                            span.single-countdown-text Min
+                        .single-countdown
+                            span.single-countdown-time#sec 0
+                            span.single-countdown-text Sec
+script.
+    var countDownDate = new Date("Jan 1, 2021, 00:00:00 ").getTime();
+    var x =setInterval(function(){
+        var now = new Date().getTime();
+        var gap = countDownDate - now;
+        var d = Math.floor(gap / (1000 * 60 * 60 * 24));
+        var h = Math.floor((gap % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var m = Math.floor((gap % (1000 * 60 * 60)) / (1000 * 60));
+        var s = Math.floor((gap % (1000 * 60)) / 1000);
+        document.getElementById('day').innerHTML = d;
+        document.getElementById('hour').innerHTML = h;
+        document.getElementById('min').innerHTML = m;
+        document.getElementById('sec').innerHTML = s;
+        if (gap < 0){
+            clearInterval(x);
+            document.getElementbyId('count').innerHTML = " TIME OVER";
+        }
+
+    }, 1000)
+
+

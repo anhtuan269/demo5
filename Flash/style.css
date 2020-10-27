@@ -1,0 +1,98 @@
+@media screen and (min-width: 320px){
+    .flash-sale .flash-container  {
+        background-color: #efedee;
+        margin: 60px 0;
+        padding: 40px 0 60px 0;
+    }
+    .flash-sale .flash-container .flash {
+        padding: 0 15px;
+    }
+    .flash-sale .flash-container .flash .content {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .flash-sale .flash-container .flash .content h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+    .flash-sale .flash-container .flash .content h3 {
+        font-size: 18px;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+    .flash-sale .flash-container .flash .content a {
+        margin-bottom: 30px;
+        font-size: 12px;
+        color:#fff;
+        background-color: #E98C81;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 20px;
+        font-weight: 600;
+        border-radius: 25px;
+    }
+    .flash-sale .flash-container .flash .content .countdown .countdown-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .flash-sale .flash-container .flash .content .countdown .countdown-container .single-countdown {
+        margin-right: 20px;
+    }
+    .flash-sale .flash-container .flash .content .countdown .countdown-container .single-countdown .single-countdown-text {
+        font-weight: 700;
+        font-size: 14px;
+        font-family: "Oswald", sans-serif;
+    }
+    .flash-sale .flash-container .flash .content .countdown .countdown-container .single-countdown .single-countdown-time {
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 26px;
+        display: block;
+    }
+}
+@media screen and (min-width: 480px){
+    .flash-sale .flash-container .flash .content h2 {
+        font-size: 40px;
+    }
+    .flash-sale .flash-container .flash .content h3 {
+        font-size: 32px;
+    }
+    .flash-sale .flash-container .flash .content a {
+        font-size: 14px;
+        padding: 0 25px;
+        height: 45px;
+        line-height: 45px;
+
+    }
+    .flash-sale .flash-container .flash .content .countdown .countdown-container .single-countdown .single-countdown-time{
+        font-size: 45px;
+        padding-bottom: 5px;
+    }
+    .flash-sale .flash-container .flash .content .countdown .countdown-container .single-countdown .single-countdown-text{
+        font-size: 22px;
+    }
+}
+@media screen and (min-width: 768px){
+    .flash-sale .flash-container .flash {
+        display: grid;
+        grid-template-columns: 40% 55%;
+        max-width: 720px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .flash-sale .flash-container {
+        margin: 80px 0;
+
+    }
+}
+@media screen and (min-width: 1200px){
+    .flash-sale .flash-container .flash {
+        max-width: 1140px;
+    }
+    .flash-sale .flash-container {
+        padding: 80px 0;
+
+    }
+}
