@@ -114,4 +114,7 @@
     .best .best-sale .content .product {
         max-width: 1320px;
     }
+    .best .best-sale .content .title {
+        max-width: 720px;
+    }
 }

@@ -47,7 +47,7 @@
         margin: auto;
         display: grid;
         grid-template-columns: 50% 50%;
-
+        align-items: center;
     }
     .feature .feature-container .feature-content {
         padding: 0 15px;
