@@ -1,0 +1,95 @@
+.blog
+    .blog-container
+        .content
+            h2.uppercase latest blog
+            p If you want to know about the organic product then keep an eye on our blog.
+        .slide1.owl-carousel.owl-theme
+            .blog1
+                .image
+                    a(href="#")
+                        img(src="./image/1.jpg", alt="")
+                .blog-content
+                    .date
+                        span 14
+                        span 01
+                    .author
+                        span Author: Obrien Demo Admin
+                    h2
+                        a(href="#")
+                            |There Are Many Variation of Passages of Lorem Ipsum Available
+                    p.desc-content Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making...
+            .blog1
+                .image
+                    a(href="#")
+                        img(src="./image/2.jpg", alt="")
+                .blog-content
+                    .date
+                        span 14
+                        span 01
+                    .author
+                        span Author: Obrien Demo Admin
+                    h2
+                        a(href="#")
+                            |There Are Many Variation of Passages of Lorem Ipsum Available
+                    p.desc-content Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making...
+            .blog1
+                .image
+                    a(href="#")
+                        img(src="./image/3.jpg", alt="")
+                .blog-content
+                    .date
+                        span 14
+                        span 01
+                    .author
+                        span Author: Obrien Demo Admin
+                    h2
+                        a(href="#")
+                            |There Are Many Variation of Passages of Lorem Ipsum Available
+                    p.desc-content Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making...
+            .blog1
+                .image
+                    a(href="#")
+                        img(src="./image/blog.jpg", alt="")
+                .blog-content
+                    .date
+                        span 14
+                        span 01
+                    .author
+                        span Author: Obrien Demo Admin
+                    h2
+                        a(href="#")
+                            |There Are Many Variation of Passages of Lorem Ipsum Available
+                    p.desc-content Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making...
+script.
+    $(document).ready(function(){
+        $('.slide1').owlCarousel({
+            nav: false,
+            loop: true,
+            responsive : {
+                1200: {
+                    items: 3
+                },
+                768: {
+                    items: 2
+                },
+                480: {
+                    items:1
+                },
+                0 :{
+                    items: 1
+                }
+            }
+        })
+    });
+
+
+
+
+
+
+
+
+
+
+
+
