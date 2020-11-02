@@ -29,6 +29,9 @@
         border: 1px solid #dee2ed;  
         margin-bottom: 0;
     }
+    .footer .footer-container .content .obrien .social ul li a:hover {
+        border: 1px solid #E98C81;
+    }
     .footer .footer-container .content .info {
         margin-top: 38px;
     }
@@ -45,6 +48,10 @@
     .footer .footer-container .content .info ul li a {
         font-weight: 300;
         display: block;
+    }
+    .footer .footer-container .content .info ul li a:hover {
+        transform: translateX(6px);
+        transition: all 0.3s ease-in-out;
     }
     .footer .footer-container .content .info address {
         font-style: normal;
@@ -65,6 +72,9 @@
     .coppy-right .coppy p a {
         display: inline-block;
         color: #E98C81;
+    }
+    .coppy-right .coppy p a:hover {
+        color: #D8D8D8;
     }
 }
 @media screen and (min-width: 768px){

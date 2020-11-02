@@ -15,6 +15,9 @@
     .best .best-sale .content .product .owl-dots {
         display: none;
     }
+    .best .best-sale .content .product .product-1 .image {
+        background-color: #efedee;
+    }
     .best .best-sale .content .product .product-1 .image figure {
         position: relative;
     } 
@@ -35,7 +38,7 @@
         visibility: visible;
         opacity:1;
     }
-    .best .best-sale .content .product .product-1 .image figure .content-image p {
+    .best .best-sale .content .product .product-1 .image figure .content-image  {
         position: absolute;
         top: 30px;
         left: 30px;

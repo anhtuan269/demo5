@@ -1,0 +1,65 @@
+@media screen and (min-width: 320px){
+    .thumb {
+        padding: 50px 0;
+        background: #f6f6f6 url(bkg.jpg) no-repeat scroll center center/cover;
+        position: relative!important;
+    }
+    .thumb:before {
+        background: #ffffff no-repeat scroll 0 0 ;
+        content:"";
+        opacity: 0.3;
+        position: absolute;
+        top:0;
+        left:0;
+        height: 100%;
+        width: 100%;
+        transition: .3s;
+    }
+    .thumb .thumb-container .content {
+        text-align: center;
+       
+    }
+    .thumb .thumb-container .content h3 {
+        font-size: 26px;
+        font-weight:600;
+        position: relative;
+    }
+    .thumb .thumb-container .content ul {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .thumb .thumb-container .content ul li {
+        position: relative;
+    }
+    .thumb .thumb-container .content ul li:first-child {
+        display: inline-block;
+        font-size: 18px;
+        font-family: "Oswald",sans-serif;
+        font-weight:400;
+        line-height: 1;
+    }
+    .thumb .thumb-container .content ul .first::after {
+        content: ">";
+        font-size: 16px;
+        font-weight: 400;
+        color:#1B1B1B;
+        padding: 0 10px;
+        align-items: center;
+        margin-top: -7px;
+    }
+
+}
+@media screen and (min-width:480px){
+    .thumb .thumb-container .content h3 {
+        font-size: 28px;
+    }
+}
+@media screen and (min-width:768px){
+    .thumb .thumb-container .content h3 {
+        font-size: 32px;
+    }
+    .thumb {
+        padding: 100px 0;
+    }
+}

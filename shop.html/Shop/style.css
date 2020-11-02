@@ -1,0 +1,441 @@
+@media screen and (min-width:320px){
+    .none { display: none!important;
+    }
+    .border {
+        border: 1px solid #1B1B1B;
+        transition: all 0.3s ease-in-out;
+    }
+    .shop .shop-container .shop-content {
+        padding: 0 15px;
+        margin-top: 80px;
+    }
+    .shop .shop-container .shop-content .right-content .top-content {
+        padding: 15px 30px;
+        border: 1px solid #d8d8d8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .shop .shop-container .shop-content .right-content .top-content .icon {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .shop .shop-container .shop-content .right-content .top-content .icon i {
+        padding: 6px 5px 4px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .shop .shop-container .shop-content .right-content .top-content .input-group select {
+        height: 40px;
+        padding-right: 18px;
+        padding-left: 15px;
+        background-color: #fff;
+        border: 1px solid #d8d8d8;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 {
+        margin-top: 30px;    
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .list-3 .product-1 {
+        background-color: #edefee;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .image {
+        background-color: #edefee;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .image figure {
+        position: relative;
+    } 
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .image figure .second {
+        position: absolute;
+        top:0;
+        left:0;
+        visibility: hidden;
+        opacity:0;
+        transition: all 0.4s ease-in ;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .image figure:hover .first {
+        visibility: hidden;
+        opacity:0;
+        transition: all 0.4s ease-out;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .image figure:hover .second {
+        visibility: visible;
+        opacity:1;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .image figure .content-image p {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        height: 20px;
+        width: 70px;
+        line-height: 20px;
+        font-size: 12px;
+        font-weight: 500;
+        background-color: #000;
+        color: #FFF;
+        text-align: center;
+        padding: 0 6px;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .product-content {
+        background-color:#efedee;
+        padding: 0 20px 30px;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .product-content .vote  {
+        padding-top:15px;
+        margin-bottom: 6px;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .product-content .vote i {
+        font-weight: 200;
+        color:#E98C81;
+        margin-right:1px;
+        font-size:18px;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .product-content .vote .voted {
+        font-weight:600;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .product-content h4 a {
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .product-content .price p {
+        font-weight:600;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .product-content .price p span {
+        margin-left:5px;
+        color: #666;
+        text-decoration: line-through;
+        font-weight:400;
+    }
+    .shop .shop-container .shop-content .right-content .bot-content {
+        margin-top: 30px;
+        padding: 15px 30px;
+        border: 1px solid #d8d8d8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .shop .shop-container .shop-content .right-content .bot-content .left ul  {
+        display: flex;
+        justify-content: center;
+    }
+    .shop .shop-container .shop-content .right-content .bot-content .left ul  li {
+        margin-right:20px;
+    }
+    .shop .shop-container .shop-content .right-content .bot-content .left ul  li i {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .list-3 .product-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .list-3 .product-1 .image {
+        margin: 20px;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .list-3 .product-1 .product-content .desc-text  {
+        margin-top: 25px;
+        padding-top: 25px;
+        border-top: 1px solid #e1e1e1;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .list-3 .product-1 .product-content .vote  {
+        padding-top:0;
+    }
+    .shop .shop-container .shop-content .left-sidebar {
+        margin-top: 80px;
+    }
+    .mb-12 {
+        margin-bottom: 57px;
+    }
+    .shop .shop-container .shop-content .left-sidebar h2 {
+        font-size: 22px;
+        font-weight:600;
+        color: #1B1B1B;
+        padding-bottom: 12px;
+        margin: 0 0 30px;
+        position: relative;
+        line-height:1;
+    }
+    .shop .shop-container .shop-content .left-sidebar h2::after {
+        position: absolute;
+        content: "";
+        background-color: #a8a8a8;
+        left:0;
+        bottom: 0;
+        height:1px;
+        width: 60%;
+    }
+    .shop .shop-container .shop-content .left-sidebar .catalog .content .input-group {
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    .shop .shop-container .shop-content .left-sidebar .catalog .content .input-group input {
+        padding: 13px 10px 15px 13px;
+        border: 1px solid #e1e1e1;
+        flex: 1 1 auto;
+        font-size: 1rem;
+        border-radius: 5px;
+        font-weight: 400;
+        width: 100%;
+    }
+    .shop .shop-container .shop-content .left-sidebar .catalog .content .input-group button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: 1px solid #e1e1e1;
+        background-color:#1B1b1C;
+        border-radius: 0 5px 5px 0;
+        height: 100%;
+        color:#FFF;
+        font-weight: 600;
+        width: 50px;
+    }
+    .shop .shop-container .shop-content .left-sidebar .catalog .content .input-group button i:hover {
+        color: #E98C81; 
+    }
+    .shop .shop-container .shop-content .left-sidebar .catalog .content .nav li {
+        position: relative;
+    }
+    .shop .shop-container .shop-content .left-sidebar .catalog .content .nav li span {
+        position: absolute;
+        top:-5px;
+        left: 90%;
+        line-height: 50px;
+        width:30px;
+        height: 50px;
+        text-align: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .shop .shop-container .shop-content .left-sidebar .catalog .content .nav li span i {
+        display: block;
+        position: relative;
+        width: 10px;
+        margin-top:25px;
+        border-bottom: 1px solid #252525;
+        transition: all 250ms ease-out;
+        cursor: pointer;
+    }
+    .shop .shop-container .shop-content .left-sidebar .catalog .content .nav li span i::before {
+        position: absolute;
+        top:0;
+        content: "";
+        display: block;
+        transform: rotate(90deg);
+        border-bottom: 1px solid #252525;
+        transition: all 0.3s ease-in-out;
+        -webkit-transform: rotate(90deg);
+        width:100%
+    }
+    .shop .shop-container .shop-content .left-sidebar .catalog .content .nav li.active > span i::before {
+        transform: rotate(90deg);
+        -webkit-transform: rotate(0);
+    }
+    .add {
+        color: #E98C81!important;
+    }
+    .shop .shop-container .shop-content .left-sidebar .content .nav li a {
+        font-size: 15px;
+        color: #252525;
+        text-transform: capitalize;
+        line-height: 18px;
+        position: relative;
+        display: inline-block;
+        padding: 10px 0;
+        font-weight: 500;
+    }
+    .shop .shop-container .shop-content .left-sidebar .content .nav li a:hover {
+        color:#E98C81;
+    }
+    .shop .shop-container .shop-content .left-sidebar .content .btn {
+        height: 20px;
+        max-width: 90px;
+        min-width:30px;
+        position: relative;
+        border: 1px solid #e1e1e1;
+        display:inline-block;
+        margin: 0 20px 20px 0;
+        border-radius: 20px;
+    }
+    .red {
+        background-color: red;
+    }
+    .green {
+        background-color: green;
+    }
+    .yellow {
+        background-color: yellow;
+    }
+    .white {
+        background-color: white;
+    }
+    .gold {
+        background-color: gold;
+    }
+    .gray {
+        background-color: gray;
+    }
+    .blue {
+        background-color: blue;
+    }
+    .magenta {
+        background-color: magenta;
+    }
+    .maroon {
+        background-color: maroon;
+    }
+    .navy{
+        background-color: navy;
+    }
+    .shop .shop-container .shop-content .left-sidebar .content .tags li {
+        display: inline-block;
+    }
+    .shop .shop-container .shop-content .left-sidebar .content .tags li a {
+        border: 1px solid #e1e1e1;
+        line-height: 1em;
+        padding: 10px 15px;
+        display: inline-block;
+        margin-right: 6px;
+        margin-bottom: 10px;
+        color: #1b1b1c;
+        border-radius: 25px;
+        font-weight: 500;
+        transition: all 250ms ease-in-out;
+    }
+    .shop .shop-container .shop-content .left-sidebar .content .tags li a:hover {
+        color: #E98C81;
+        border-color:#E98C81;
+    }
+    .shop .shop-container .shop-content .left-sidebar .content .product {
+        display: grid;
+        grid-template-columns: 26% 68%;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+    .shop .shop-container .shop-content .left-sidebar .content .product .title-2 {
+        font-family: 'Poppins',sans-serif;
+        font-weight: 600;
+        font-size:14px;
+        display: inline-block;
+        margin: 0 0 3px;
+    }
+    .shop .shop-container .shop-content .left-sidebar .content .product .price-box {
+        font-size: 14px;
+    }
+    .shop .shop-container .shop-content .left-sidebar .content .product .price-box span {
+        color: #a8a8a8;
+        text-decoration: line-through;
+        margin-left: 5px;
+    }
+    .shop .shop-container .shop-content .left-sidebar .content .product .vote i{
+        font-weight:300;
+        color: #E98C81;
+        font-size: 12px;
+        margin-right: 1px;
+    }
+    .shop .shop-container .shop-content .left-sidebar .content .product .vote .voted {
+        font-weight: 900;
+
+    }
+
+}
+@media screen and (min-width: 480px){
+    .shop .shop-container .shop-content .right-content .top-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .shop .shop-container .shop-content .right-content .top-content .icon {
+        margin-bottom: 0;
+        align-items: center;
+    }
+    .shop .shop-container .shop-content .right-content .bot-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 768px){
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 {
+        padding: 0 15px;
+    }
+    .shop .shop-container .shop-content .right-content .top-content {
+        margin: 0 15px;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .grid-3 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: space-between;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .list-3 {
+        padding: 0 15px;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .list-3 .product-1 {
+        display: grid;
+        grid-template-columns: 38% 60%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .product-content .vote  {
+        margin-bottom: 15px;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .product-1 .product-content h4 a {
+        margin-bottom: 15px;
+    }
+    .shop .shop-container .shop-content .right-content .bot-content {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .shop .shop-container .shop-content .left-sidebar  {
+        padding: 0 15px;
+
+    }
+    .shop .shop-container .shop-content .left-sidebar .catalog .content .nav li span {
+        left: 95%;
+    }
+
+}
+@media screen and (min-width: 1200px){
+    .shop .shop-container {
+        max-width: 1140px;
+        margin:auto;
+    }
+    .shop .shop-container .shop-content .right-content .mid-content .grid-3 {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        justify-content: space-between;
+    }
+    .shop .shop-container .shop-content  {
+        display: flex;
+        flex-direction: row-reverse;
+        flex: 1 0 100%;
+        justify-content: space-between;
+    }
+    .shop .shop-container .shop-content .right-content {
+        width: 75%
+    }
+    .shop .shop-container .shop-content .left-sidebar {
+        margin-top:0 ;
+        width: 25%
+    }
+}
+@media screen and (min-width: 1400px){
+    .shop .shop-container {
+        max-width: 1320px;
+    }
+}
+@media screen and (min-width: 1500px){
+    .shop .shop-container {
+        max-width: 1480px;
+    }
+}
