@@ -1,0 +1,94 @@
+.sample
+    .sample-container
+        .sample-content 
+            .sample-image
+                .product-sample.owl-carousel.owl-theme
+                    .sample-1
+                        figure
+                            a(href="#")
+                                img(src="./image/10.jpg", alt="")
+                    .sample-1
+                        figure
+                            a(href="#")
+                                img(src="./image/7.jpg", alt="")
+                    .sample-1
+                        figure
+                            a(href="#")
+                                img(src="./image/9.jpg", alt="")
+                    .sample-1
+                        figure
+                            a(href="#")
+                                img(src="./image/8.jpg", alt="")
+                .image
+                    .image-1
+                        figure
+                                img(src="./image/10.jpg", alt="")
+                    .image-1
+                        figure
+                                img(src="./image/7.jpg", alt="")
+                    .image-1
+                        figure
+                                img(src="./image/9.jpg", alt="")
+                    .image-1.none.img-4
+                        figure
+                                img(src="./image/8.jpg", alt="")
+            .content
+                .title.mb3
+                    h2 Sample product Countdown
+                .price-box.mb2
+                    p   
+                        | $ 80.00
+                        span $90.00
+                .vote.mb3
+                    i.fas.fa-star.voted
+                    i.fas.fa-star.voted
+                    i.fas.fa-star.voted
+                    i.fas.fa-star
+                    i.fas.fa-star
+                .sku.mb3
+                    p SKU: 12345
+                .text.mb5
+                    p I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+                .input.mb4
+                    .input-group 
+                        input(type="text" value="0")
+                        .dec.btn -
+                        .inc.btn +
+                    .add
+                        button
+                            a.btn(href="#") ADD TO CART
+                        .whish
+                            a.btn(href="#") Add To Wishlist
+                .buy.mb5
+                    a(href="#")#buy Buy it now
+                .social.mb4
+                    p Share:
+                    .icon
+                        a(href="http://facbook.com")
+                            i.fab.fa-facebook-square.face
+                        a(href="#")
+                            i.fab.fa-twitter-square.twitter
+                        a(href="#")
+                            i.fab.fa-invision.invision
+                        a(href="#")
+                            i.fab.fa-pinterest-square.pin
+                .link
+                    a(href="#")
+                        img(src="./image/img-payment.png", alt="")
+
+
+script.
+    $(document).ready(function(){
+        $('.product-sample').owlCarousel({
+            nav:false,
+            loop: true,
+            responsive: {
+                1000: {
+                    items: 1
+                },
+                0: {
+                    items: 1
+                }
+            }
+        })
+    });
