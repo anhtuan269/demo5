@@ -52,14 +52,21 @@
     .help .help-content .need  {
         margin-bottom: 0px;
     }
+    .help .help-content .need h2 {
+        text-align: left;
+    }
 }
 @media screen and (min-width: 768px){
     .help .help-content .need h2 {
-        
         font-size: 36px;
     }
     .help .help-content .button a {
         font-size: 18px;
+    }
+    .help .help-content {
+        max-width: 720px;
+        margin: auto;
+        margin-top: 75px!important;
     }
 }
 @media screen and (min-width:1200px){

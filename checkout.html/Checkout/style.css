@@ -1,0 +1,198 @@
+@media screen and (min-width: 320px){
+    .mb25 {
+        margin-bottom: 25px
+    }
+    .mb30 {
+        margin-bottom: 30px
+    }
+    .ml5 {
+        margin-left: 5px;
+    }
+    .mb16 {
+        margin-bottom:16px;
+    }
+    .mb {
+        margin-bottom: 8px;
+    } 
+    .mt2 {
+        margin-top: 8px;
+    } 
+    .mt20 {
+        margin-top: 20px;
+    }
+    .checkout {
+        padding-top:  60px ;
+    }
+    .checkout .content {
+        padding: 0 15px;
+    }
+    .checkout .content .checkout-content .ques {
+        background-color:#ededed;
+        
+    }
+    .checkout .content .checkout-content .ques h3 {
+        font-size: 15px;
+        font-weight: 500;
+        list-style: outside none none;
+        margin-bottom:  30px;
+        padding: 16px 32px 16px 20px;
+        position: relative;
+        width: auto;
+        text-transform: none;
+    }
+    .checkout .content .checkout-content .ques h3 span {
+        cursor: pointer;
+    }
+    .checkout .content .main .billing h3 {
+        font-size: 18px;
+        border-bottom: 1px solid #e1e1e1;
+        margin-bottom: 25px;
+        padding: 0 0 10px;
+        width: 100%;
+        font-weight: 700;
+    }
+    .checkout .content .main .country p {
+        margin-bottom: 5px;
+    }
+    .checkout .content .main .country p span {
+        margin-left: 5px;
+        font-size: 1.6em;
+        line-height: 1.6em;
+        position: relative;
+        top: 5px;
+        font-weight: 500;
+    }
+    .checkout .content .main .country select {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 10px;
+        background-color: #fff;
+        border: 1px solid #e1e1e1;
+    }
+    .checkout .content .main .billing input[type="text"]{
+        background: #ffffff;
+        border: 1px solid #e1e1e1;
+        border-radius: 0;
+        height: 40px;
+        width: 100%;
+        padding: 0 10px 0 10px;
+        line-height: 40px;
+    }
+    .checkout .content .main .billing .text textarea {
+        border: 1px solid #e1e1e1;
+        width: 100%;
+        height:90px;
+    }
+    .mb15 {
+        margin-bottom: 15px;
+    }
+    /* order */
+    .checkout .content .order .order-container {
+        padding: 20px 30px;
+        background-color: #efedee;
+
+    }
+    .checkout .content .order .order-container h2 {
+        font-size: 18px;
+        padding-bottom: 10px;
+        font-weight:700;
+        border-bottom: 1px solid #e1e1e1;
+        width: 100%;
+    }
+    .checkout .content .order .order-container .total table tr {
+        border-bottom: 1px solid #333;
+    }
+    .checkout .content .order .order-container .total table tr:last-child {
+        border-bottom: 0px solid #333;
+    }
+    .checkout .content .order .order-container .total table thead tr th {
+        padding: 15px 0;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        width:250px;
+    }
+    .checkout .content .order .order-container .total table tbody tr td {
+        padding:8px
+    }
+    .checkout .content .order .order-container .total table tbody tr td:nth-child(2){
+        text-align: center;
+    }
+    .strong1{
+        font-size: 15px;
+        font-weight:700;
+    }
+    .strong2{
+        font-size: 18px;
+        font-weight:700;
+        padding: 7px!important;
+    }
+    .strong3{
+        font-size: 20px;
+        font-weight:700;
+    }
+    .checkout .content .order .order-container .total .bank h3 {
+        font-weight: 700;
+        font-size: 18px;
+        font-family: "Oswald",sans-serif;
+    }
+    .checkout .content .order .order-container .total .bank #order {
+        background-color: #1b1b1b;
+        color: #fff;
+        font-size: 17px;
+        font-weight:500;
+        height:50px;
+        width:100%;
+        text-align: center;
+        border: 1px solid transparent;
+        line-height: 50px;
+        text-transform: uppercase;
+    }
+}
+@media screen and (min-width: 480px){
+    .checkout .content .order .order-container {
+        padding:30px 40px 30px;
+    }
+    .checkout .content .order .order-container .total .bank #order {
+        font-size: 20px;
+    }
+    .checkout .content .main .billing h3 {
+        font-size:25px;
+    }
+    .checkout .content .order .order-container h2 {
+        font-size:25px;
+    }
+    .checkout {
+        padding-top:  80px ;
+    }
+}
+@media screen and (min-width: 768px){
+    .checkout .content .order .order-container {
+        padding:30px 40px;
+    }
+    .checkout .content {
+        max-width: 720px;
+        margin: auto;
+    }
+    .checkout .content .main .billing .template {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        justify-content: space-between;
+    }
+    .checkout .content .main .billing .name {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 1200px){
+    .checkout .content {
+        max-width: 1140px;
+    }
+    .checkout .content .checkout-content .grid-temple {
+        display: grid;
+        grid-template-columns: 49% 49%;
+        justify-content: space-between;
+    }
+}

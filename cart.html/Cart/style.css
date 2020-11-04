@@ -1,0 +1,265 @@
+@media screen and (min-width: 320px){
+    .mt5 {
+        margin-top: 60px;
+    }
+    .cart .cart-content {
+        padding: 0 15px;
+    }
+    .cart .cart-content .table-cart {
+        overflow-x: auto;
+    }
+    .cart .cart-content .table-cart table {
+        --bs-table-bg: transparent;
+        --bs-table-accent-bg: transparent;
+        --bs-table-striped-color: #212529;
+        --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+        --bs-table-active-color: #212529;
+        --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+        --bs-table-hover-color: #212529;
+        --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #212529;
+        vertical-align: top;
+        border-color: #dee2e6;
+        margin: 0;
+        white-space: nowrap;
+        caption-side: bottom;
+        border-collapse: collapse;
+    }
+    .cart .cart-content .table-cart table tr {
+        border-color:#a8a8a8;
+        border-width: 1px 0;
+        border-style: solid;
+    }
+    .cart .cart-content .table-cart table tr th {
+        border-width: 0;
+        border-style: solid;
+        border-color: #a8a8a8;
+        border-bottom: 0 solid transparent;
+        color: #1B1B1C;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 15px 20px;
+    }
+    .cart .cart-content .table-cart table>:not(caption)>* {
+        border-width: 1px 0;
+    }
+    .cart .cart-content .table-cart table>:not(caption)>*>* {
+        border-width: 0 1px!important;
+    }
+    .cart .cart-content .table-cart table tbody>:not(caption)>*:last-child {
+        border-width:  0;
+    }
+    .cart .cart-content .table-cart table tr th {
+        width: 177px;
+         text-align: center;
+         align-items: center;
+         -webkit-box-align: center;
+    }
+    .cart .cart-content .table-cart table tbody tr td {
+            border-color: #ccc;
+            text-align: center;
+            padding: 10px 20px;
+            vertical-align: middle;
+            font-weight: 600;
+            color: #333333;
+    }
+    .cart .cart-content .table-cart table tbody tr td {
+        color: #333;
+        font-weight:500;
+        text-transform: capitalize;
+    }
+    .cart .cart-content .table-cart table tbody tr td span {
+        font-weight:600;
+    }
+    .cart .cart-content .table-cart table tbody tr .pro-quantity .input-group {
+        position: relative;
+        width: 150px;
+        height: 45px;
+        text-align: left;
+        overflow: hidden;   
+    }
+    .cart .cart-content .table-cart table tbody tr .pro-quantity .input-group input {
+        border: 1px solid #e1e1e1;
+        height:45px;
+        width:150px;
+        text-align: center;
+        background-color: #fff;
+        font-size:16px;
+        font-weight:600;
+    }
+    .cart .cart-content .table-cart table tbody tr .pro-quantity .input-group .btn {
+        position: absolute;
+        text-align: center;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 600;
+        width:35px;
+        align-items: center;
+        vertical-align: center;
+         color:#1b1b1c;
+         transition: .3s;
+    }
+    .cart .cart-content .table-cart table tbody tr .pro-quantity .input-group .dec {
+        top: 50%;
+        left:0;
+        transform: translatey(-50%);
+        height: 100%;
+        border-right: 1px solid #e1e1e1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cart .cart-content .table-cart table tbody tr .pro-quantity .input-group .inc {
+        top: 50%;
+        right:0;
+        transform: translatey(-50%);
+        height: 100%;
+        border-left: 1px solid #e1e1e1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cart .cart-content .cart-update  {
+        border: 1px solid #ccc;
+        padding: 15px 20px;
+    }
+    .cart .cart-content .cart-update .apply form input {
+        border: 1px solid #ccc;
+        font-size: 14px;
+        padding:12px 10px;
+        width:100%;
+        outline: none;
+        transition: .3s;
+        text-decoration: none;
+        overflow: visible;
+        margin-right:15px;
+    }
+    .cart .cart-content .cart-update .apply form button {
+        background-color: #E98C81;
+        color: #FFF;
+        display: block;
+        font-size: 12px;
+        height:40px;
+        line-height:40px;
+        padding: 0 20px;
+        border-radius: 0;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        width: 100%;
+        font-weight:600;
+        letter-spacing: 0.025em;
+        font-family: "Oswald",sans-serif;
+
+    }
+    .cart .cart-content .cart-update .update a {
+        background-color: #E98C81;
+        color:#fff;
+        font-size:12px;
+        font-weight: 600;
+        letter-spacing: 0.025em;
+        padding:0 20px;
+        height: 40px;
+        line-height:40px;
+        border-radius: 25px;
+        text-transform: uppercase;
+        font-family: "Oswald",sans-serif;
+    }
+    .cart .cart-content .total .total-content {
+        margin-top: 30px;
+        background-color: #f8f8f8;
+    }
+    .cart .cart-content .total .total-content h3 {
+        color:#333;
+        font-weight:600;
+        font-size:18px;
+        padding:27px 15px 25px;
+    }
+    .cart .cart-content .total .total-content table {
+        width: 100%;
+    }
+    .cart .cart-content .total .total-content table tbody tr {
+        border-bottom: 1px solid #dee2e6;
+    }
+    .cart .cart-content .total .total-content table tbody tr:last-child{
+        border-bottom: none;
+    }
+    .cart .cart-content .total .total-content table tbody tr td {
+        color:#333;
+        padding: 15px 20px;
+        font-weight:500;
+    }
+    .cart .cart-content .total .total-content table tbody tr td:nth-child(2) {
+        text-align: right;
+    }
+    .strong {
+        font-weight:700!important;
+        color:#62d2a2!important;
+    }
+    .cart .cart-content .total .total-content a {
+        color:#fff;
+        background-color: #E98C81;
+        padding: 0 20px;
+        height: 40px;
+        line-height:40px;
+        letter-spacing: 0.025em;
+        width:100%;
+        font-weight: 600;
+        text-align: center;
+        font-size: 12px;
+        font-family: "Oswald",sans-serif;
+
+    }
+}
+@media screen and (min-width: 480px){
+    .mt5 {
+        margin-top: 80px;
+    }
+}
+@media screen and (min-width: 768px){
+    .cart .cart-content {
+        max-width: 720px;
+        margin: auto;
+    }
+    .cart .cart-content .cart-update  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cart .cart-content .cart-update .apply form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cart .cart-content .cart-update .apply form input {
+        padding: 12px 10px;
+    }
+    .cart .cart-content .cart-update .apply form button {
+        margin:0;
+        height: 45px;
+        line-height: 45px;
+        font-size:18px;
+        padding: 0 22px;
+        border-radius: 25px;
+    }
+    .cart .cart-content .cart-update .update a {
+        height: 45px;
+        line-height: 45px;
+        font-size:18px;
+        padding: 0 30px;
+    }
+    .cart .cart-content .total .total-content a {
+        font-size:18px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .cart .cart-content {
+        max-width: 1140px;
+        margin: auto;
+    }
+    .cart .cart-content .total .total-content {
+        margin-left: auto;
+        width: 41.66%;
+    }
+}

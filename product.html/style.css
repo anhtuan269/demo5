@@ -4,3 +4,8 @@
 .mt2 {
     margin-top: 74px;
 }
+@media screen and (min-width: 320px){
+    .mt2 {
+        margin-top: 60px;
+    } 
+}
