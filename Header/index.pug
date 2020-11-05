@@ -13,26 +13,106 @@
         .menu
             .main-menu
                 ul.nav
-                    li
+                    li.has-sub
                         a.active(href="index.pug") 
                             |Home
                             i.fas.fa-angle-down
+                        ul.submenu  
+                            li  
+                                a.active(href="index.pug") Home Page - 1
+                            li  
+                                a(href="index.pug") Home Page - 2
+                            li  
+                                a(href="index.pug") Home Page - 3
+                            li  
+                                a(href="index.pug") Home Page - 4
                         
-                    li
+                    li.has-sub
                         a(href="shop.html") 
                             |Shop
                             i.fas.fa-angle-down
-                    li
-                        a(href="product.html") 
+                        .menu-grid.submenu
+                            .menu-column
+                                ul 
+                                    li
+                                        span Shop
+                                    li
+                                        a(href="shop.html") Shop Left Sidebar
+                                    li
+                                        a(href="#") Shop Right Sidebar
+                                    li
+                                        a(href="#") Shop List Left Sidebar
+                                    li
+                                        a(href="#") Shop List Right Sidebar
+                                    li
+                                        a(href="#") Shop Full Width
+                            .menu-column
+                                ul 
+                                    li
+                                        span Product
+                                    li
+                                        a(href="product.html") Single Product
+                                    li
+                                        a(href="#") Variable Product
+                                    li
+                                        a(href="#") Extrenal Product
+                                    li
+                                        a(href="#") Gallery Product
+                                    li
+                                        a(href="#") Countdown Product
+                            .menu-column
+                                ul 
+                                    li
+                                        span Other
+                                    li
+                                        a(href="#") Error 404
+                                    li
+                                        a(href="#")  compare page
+                                    li
+                                        a(href="cart.html") Cart Page
+                                    li
+                                        a(href="checkout.html") Checkout Page
+                                    li
+                                        a(href="shop.html") Wishlist Page
+                    li.has-sub
+                        a(href="#") 
                             |Blog
                             i.fas.fa-angle-down
-                    li
-                        a(href="cart.html") 
+                        ul.submenu 
+                            li
+                                a.active(href="#") Blog Left sidebar
+                            li
+                                a(href="#") Blog Right sidebar
+                            li
+                                a(href="#") Blog List Fullwidth
+                            li
+                                a(href="#") Blog Grid Page
+                            li
+                                a(href="#") Blog Grid Sidebar
+                            li
+                                a(href="#") Blog Grid Fullwidth
+                            li
+                                a(href="#") Blog Detail Sidebar
+                            li
+                                a(href="#") Blog Detail Fullwidth
+                    li.has-sub
+                        a(href="#") 
                             |Page
                             i.fas.fa-angle-down
+                        ul.submenu
+                            li
+                                a.active(href="#") FAQ
+                            li
+                                a(href="#") My Account
+                            li
+                                a(href="#") Login
+                            li
+                                a(href="#") Resigter
+                   
+                   
                    
                     li
-                        a(href="checkout.html") About
+                        a(href="#") About
                     li
                         a(href="#") Contact
         .custom
@@ -44,18 +124,100 @@
 
                         span.register
                             a(href="#") Register
-                    li.usd
+                    li.usd.has-sub
                         a(href="#") USD
                         i.fas.fa-caret-down
-                    li.cart  
+                        ul.submenu
+                            li
+                                a(href="#") USD - US Dollar
+                            li
+                                a(href="#") EUR - Euro
+                            li
+                                a(href="#") GPB - British Pound
+                            li
+                                a(href="#") INR - Indian Rupee
+                            li
+                                a(href="#") BDT - Bangladesh Taka 
+                            li
+                                a(href="#") JPY - Japan Yen
+                            li
+                                a(href="#") CND - Canada Dollar
+                            li
+                                a(href="#") VND - Việt Nam Đồng
+                    li.cart.has-sub  
                         a(href="#")
                             i.fas.fa-cart-plus
                             span 3
+                        .cart-content.submenu2
+                            .image.mba
+                                .cart-image
+                                    a(href="#")
+                                        img(src="./image/cart1.jpg", alt="")
+                                .cart-text
+                                    h5.title 
+                                        a(href="#") 11. Product with video - navy
+                                    .cart-text-btn
+                                        .text
+                                            span 1x
+                                            span.color $98.00
+                                        .btn
+                                            i.fas.fa-trash
+                            .image.mba
+                                .cart-image
+                                    a(href="#")
+                                        img(src="./image/cart2.jpg", alt="")
+                                .cart-text
+                                    h5.title 
+                                        a(href="#") 11. Product with video - navy
+                                    .cart-text-btn
+                                        .text
+                                            span 1x
+                                            span.color $98.00
+                                        .btn
+                                            i.fas.fa-trash
+                            .image.mba
+                                .cart-image
+                                    a(href="#")
+                                        img(src="./image/cart3.jpg", alt="")
+                                .cart-text
+                                    h5.title 
+                                        a(href="#") 11. Product with video - navy
+                                    .cart-text-btn
+                                        .text
+                                            span 1x
+                                            span.color $98.00
+                                        .btn
+                                            i.fas.fa-trash
+                            .total
+                                p TOTAL :
+                                p $166.00
+                            .link
+                                a.cart.btn(href="cart.html") View Cart
+                                a.check.btn(href="checkout.html") checkout
+
+
                     li.bar
                         a(href="#")
-                            i.fas.fa-bars
-                        
+                            i.fas.fa-bars#bar   
+.scroll(onclick="back()" style ="cursor:pointer;")
+    i.fas.fa-angle-up
 script.
     $('.close-btn').click(function(e){
         $('.top-notice').addClass('none')
     })
+    function scroll() {
+    if ($(window).scrollTop() >= 400) {
+    $('.scroll').addClass('fix');
+    } else {
+    $('.scroll').removeClass('fix');
+    }
+    }
+    window.onscroll = scroll;
+    function back() {
+    $('.scroll').on('click', function(e){
+    $('html, body').animate({
+    'scrollTop':0
+    },1200);
+    e.preventDefault();
+    });
+    }
